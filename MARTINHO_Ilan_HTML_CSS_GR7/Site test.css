@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+body{
+background-color: hsl(233, 47%, 7%);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+list-style: none;
+text-decoration: none;
+}
+
+.img-1 {
+ background-color:  hsl(277, 64%, 61%);
+
+}
+
+.h1-1 {
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", "sans-serif";
+    font-weight: 700;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.h2-1 {
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", "sans-serif";
+    font-weight: 700;
+    margin-bottom: 10;
+    font-size: 20px;
+}
+
+.p-1 {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", "sans-serif";
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.p-2 {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: "Lexend Deca", "sans-serif";
+    font-size: 10px;
+}
+
+.left {
+    background-color: hsl(244, 38%, 16%);
+    padding: 50px;
+    width: 50%;
+
+}
+
+.parent {
+
+display: flex;
+gap: 70px;
+margin-top: 110px;
+padding-left: 10px;
+    
+}
+
+.all-body {
+    display: flex;  
+    max-width: 1000px   ;
+}
+
+.insight {
+    font-size: 27px;  
+    color: hsl(277, 64%, 61%);
+}
+
+.image {
+    mix-blend-mode: luminosity;
+    display: block;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: beige ;
+    }
+    .h1-1 {
+        font-size: 36px;
+    }
+
+    section {
+        flex-direction: column;
+    }
+}
+
+a {
+
+color: aliceblue;
+text-decoration: none;
+background-color: rgb(211, 64, 152);
+padding: 16px;
+display: inline-block;
+transition: all 0.3s;
+border: 3px solid white;
+border-radius: 10px;
+}
+
+a:hover {
+    background-color: brown;
+    padding: 24px;
+}
+
+

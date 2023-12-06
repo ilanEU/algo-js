@@ -1,0 +1,22 @@
+body {
+background-color: rgb(97, 55, 125);
+color: brown;
+text-align: center  ;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+
+    font-size: 90px;
+}
+
+img {
+    width: 50%;
+}
+
+
+.mass {
+    color: azure;
+    font-size: 50px;
+}
+
