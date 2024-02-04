@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de fond et de police globale */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1f430c; /* Couleur de fond verte claire */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style du formulaire */
+form {
+    background-color: #ffffff; /* Fond blanc du formulaire */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les étiquettes des champs du formulaire */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #183f19; /* Couleur verte pour les étiquettes */
+}
+
+/* Style pour les champs de texte et de zone de texte */
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #4caf50; /* Bordure verte pour les champs de texte */
+    border-radius: 4px;
+}
+
+/* Style pour le bouton d'envoi */
+button {
+    background-color: #1c771f; /* Fond vert pour le bouton */
+    color: #ffffff; /* Texte blanc pour le contraste */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style pour le survol du bouton d'envoi */
+button:hover {
+    background-color: #1c411d; /* Fond vert */
+
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Contact</title>
+    <link rel="stylesheet" href="Menu.css">
+</head>
+<body>
+
+<form action="traitement.php" method="post">
+    <!-- Champ pour le nom -->
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required>
+
+    <!-- Champ pour l'e-mail -->
+    <label for="email">E-mail :</label>
+    <input type="email" id="email" name="email" required>
+
+    <!-- Champ pour l'adresse -->
+    <label for="adresse">Adresse :</label>
+    <input type="text" id="adresse" name="adresse" required>
+
+    <!-- Champ pour le code postal -->
+    <label for="codePostal">Code Postal :</label>
+    <input type="text" id="codePostal" name="codePostal" required>
+
+    <!-- Champ pour le mot de passe -->
+    <label for="motDePasse">Mot de Passe :</label>
+    <input type="password" id="motDePasse" name="motDePasse" required>
+
+    <!-- Champ pour confirmer le mot de passe -->
+    <label for="confirmerMotDePasse">Confirmer Mot de Passe :</label>
+    <input type="password" id="confirmerMotDePasse" name="confirmerMotDePasse" required>
+
+    <!-- Champ pour le message -->
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <!-- Bouton d'envoi -->
+    <button type="submit">Envoyer</button>
+
+    <!-- Bouton pour retourner à la page Menu.html -->
+    <a href="top grenouilles.html">
+        <button type="button">Retourner au Menu</button>
+    </a>
+</form>
+
+<script src="Formulaire.js"></script>
+</body>
+</html>
